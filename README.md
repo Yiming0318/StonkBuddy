@@ -32,7 +32,7 @@ A stock ideas sharing and managers searching website
 ### How to run
 ```
 Install the Django (https://docs.djangoproject.com/en/4.0/topics/install/)
-Check setting.py, change anything you want in details (eg. database, email password, cloud storage)
+Check managersearch/managersearch/settings.py, change anything you want in details (eg. database, email password, cloud storage)
 python manage.py migrate (To do the migrations)
 python manage.py runserver (To run the website)
 ```
