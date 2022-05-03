@@ -9,7 +9,12 @@ A stock ideas sharing and managers searching website
 - Message Feature (Send message to others, read message from others)
 - RESTful API
 
-### preview
+### Framework
+- Django
+- CSS, Bootstrap
+- Postgresql
+
+### Preview
 ![Screenshot (9)](https://user-images.githubusercontent.com/103970218/166477836-523f983a-4c3b-4212-878e-2f866a014f59.png)
 ![Screenshot (10)](https://user-images.githubusercontent.com/103970218/166477861-ebdd846d-087c-480c-977f-ba9166edc2f3.png)
 ![Screenshot (11)](https://user-images.githubusercontent.com/103970218/166477887-f3169441-adae-43ad-b302-66a190f0f35a.png)
@@ -23,3 +28,14 @@ A stock ideas sharing and managers searching website
 ![Screenshot (17)](https://user-images.githubusercontent.com/103970218/166478445-5082ea72-cbab-46fa-a1ca-d80b2bdae4ca.png)
 ![Screenshot 2022-04-21 165401](https://user-images.githubusercontent.com/103970218/166478726-7a2c2c76-26b8-451f-975e-ddc1f3675607.png)
 ![Screenshot 2022-04-21 165903](https://user-images.githubusercontent.com/103970218/166478748-7dcd5114-ff92-4f48-80df-85982897a6a3.png)
+
+### How to run
+```
+Install the Django (https://docs.djangoproject.com/en/4.0/topics/install/)
+Check setting.py, change anything you want in details (eg. database, email password, cloud storage)
+python manage.py migrate (To do the migrations)
+python manage.py runserver (To run the website)
+```
+### Source
+- Whole project Framework and Tech Stack follows the course https://www.udemy.com/course/python-django-2021-complete-course/
+- Sample Templates can checked from https://github.com/divanov11/Django-2021
