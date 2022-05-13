@@ -37,5 +37,4 @@ python manage.py migrate (To do the migrations)
 python manage.py runserver (To run the website)
 ```
 ### Source
-- Whole project Framework and Tech Stack follows the course https://www.udemy.com/course/python-django-2021-complete-course/
 - Sample Templates can checked from https://github.com/divanov11/Django-2021
